@@ -18,11 +18,11 @@ class ScheduleApp extends StatelessWidget {
 final ThemeData _appTheme = _buildAppTheme();
 
 ThemeData _buildAppTheme() {
-  final ThemeData base = ThemeData.light();
+  final ThemeData base = ThemeData.dark();
 
   return base.copyWith(
       primaryColor: Colors.black,
-      accentColor: Color(0xffe3f9df),
+      accentColor: Colors.white,
       buttonTheme: base.buttonTheme.copyWith(
         buttonColor: Color(0xff6fb165),
         textTheme: ButtonTextTheme.normal,
@@ -33,7 +33,7 @@ ThemeData _buildAppTheme() {
       ),
       hintColor: Colors.grey[100],
       scaffoldBackgroundColor: Color(0xffe439a1),
-      textSelectionColor: Colors.black,
+      textSelectionColor: Colors.white,
       errorColor: Colors.red,
       textTheme: _buildAppTextTheme(base.textTheme),
       primaryTextTheme: _buildAppTextTheme(base.primaryTextTheme),
