@@ -27,6 +27,7 @@ class _CategoryPageState extends State<CategoryPage> {
             return <Widget>[
               SliverAppBar(
                 iconTheme: IconThemeData(color: Colors.black),
+                brightness: Brightness.light,
                 floating: true,
                 pinned: true,
                 expandedHeight: 200,

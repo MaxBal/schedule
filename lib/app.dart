@@ -4,7 +4,7 @@ import 'package:schedule/pages/home.dart';
 class ScheduleApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Татьянос Расписание',
+      title: 'Расписание',
       initialRoute: '/',
       theme: _appTheme,
       routes: <String, WidgetBuilder>{
