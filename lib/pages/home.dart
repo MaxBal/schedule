@@ -245,7 +245,7 @@ class _HomePageState extends State<HomePage> {
         elevation: 0,
         brightness: Brightness.light,
         centerTitle: true,
-        title: Text('Рассписание', style: TextStyle(color: Colors.black)),
+        title: Text('Расписание', style: TextStyle(color: Colors.black)),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.refresh),
