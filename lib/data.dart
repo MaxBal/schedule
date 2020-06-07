@@ -9,8 +9,7 @@ const CATEGORIES_IDS = {
 
 final List<ContentCategory> categories = [
   new ContentCategory(4, 'Экзамены', 'assets/images/exams.png'),
-  new ContentCategory(
-      3, 'Временные изменения', 'assets/images/schedule-changes.jpg'),
+  new ContentCategory(3, 'Временные изменения', 'assets/images/schedule-changes.jpg'),
   new ContentCategory(1, '1 неделя', 'assets/images/week-head.png'),
   new ContentCategory(2, '2 неделя', 'assets/images/week-head.png')
 ];
