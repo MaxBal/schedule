@@ -21,7 +21,7 @@ ThemeData _buildAppTheme() {
   final ThemeData base = ThemeData.light();
 
   return base.copyWith(
-      primaryColor: Colors.white,
+      primaryColor: Colors.black,
       accentColor: Color(0xffe3f9df),
       buttonTheme: base.buttonTheme.copyWith(
         buttonColor: Color(0xff6fb165),
