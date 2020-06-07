@@ -11,6 +11,7 @@ class ScheduleApp extends StatelessWidget {
         '/': (context) => HomePage(),
       },
       debugShowCheckedModeBanner: false,
+      
     );
   }
 }
@@ -21,8 +22,8 @@ ThemeData _buildAppTheme() {
   final ThemeData base = ThemeData.dark();
 
   return base.copyWith(
-      primaryColor: Colors.black,
-      accentColor: Colors.white,
+      primaryColor: Colors.white,
+      accentColor: Color(0xffe3f9df),
       buttonTheme: base.buttonTheme.copyWith(
         buttonColor: Color(0xff6fb165),
         textTheme: ButtonTextTheme.normal,
@@ -33,7 +34,7 @@ ThemeData _buildAppTheme() {
       ),
       hintColor: Colors.grey[100],
       scaffoldBackgroundColor: Color(0xffe439a1),
-      textSelectionColor: Colors.white,
+      textSelectionColor: Colors.black,
       errorColor: Colors.red,
       textTheme: _buildAppTextTheme(base.textTheme),
       primaryTextTheme: _buildAppTextTheme(base.primaryTextTheme),
