@@ -1,7 +1,7 @@
 import 'package:schedule/models/content-category.dart';
 
 const CATEGORIES_IDS = {
-  'FIRST_WEEK': 1,
+  "FIRST_WEEK": 1,
   "SECOND_WEEK": 2,
   "CHANGES": 3,
   "EXAMS": 4
